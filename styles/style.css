@@ -37,6 +37,7 @@
     overflow: hidden;
     display: flex;
     min-height: 75vh;
+
 }
 
 .loop-container {
@@ -45,11 +46,15 @@
     font-weight: 100;
     font-size: 9vw;
     letter-spacing: 5px;
-    /* transform: rotate(7deg); */
+    transform: rotate(7deg);
 }
 
 .item {
     position: absolute;
+}
+
+.item h1 {
+    color: tomato;
 }
 
 /* ----------------------------------------------------- */
@@ -73,6 +78,7 @@
     gap: 2rem;
     padding-right: 2rem;
     position: absolute;
+    
 }
 
 .image-container {
