@@ -31,6 +31,7 @@
     background-color: rgb(22, 22, 22);
 }
 
+
 .hero-section {
     position: relative;
     overflow: hidden;
@@ -44,7 +45,7 @@
     font-weight: 100;
     font-size: 9vw;
     letter-spacing: 5px;
-    transform: rotate(80deg);
+    /* transform: rotate(7deg); */
 }
 
 .item {
